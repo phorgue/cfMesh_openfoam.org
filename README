@@ -1,9 +1,26 @@
-                            -*- mode: org; -*-
+Repository for cfMesh compatibility 
+
+branch openfoam-7 => works correctly with openfoam-7 
+branch openfoam-8 => exactly same branch as openfoam-7 but cartesian2DMesh seems to have issues
+
+parallel compilation is possible with
+
+./Allwmake -jN
+
+with N number of processors
+
+
+
+-*- mode: org; -*-
 
 +TITLE:                       *cfMesh README*
+
 +AUTHOR:                      Franjo Juretic.
+
 +DATE:                           October 2016
+
 +LINK:                  http://www.cfmesh.com
+
 +OPTIONS:
 
 cfMesh is a library for mesh generation built on OpenFOAM.
