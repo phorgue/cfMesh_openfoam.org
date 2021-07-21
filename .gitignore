@@ -3,7 +3,8 @@
 *linux*
 cfMesh*
 **/lnInclude/*
-**/Make/**/*
+linux64GccDPOpt/
+linux64GccDPInt32Opt/
 log
 log.*
 *~
