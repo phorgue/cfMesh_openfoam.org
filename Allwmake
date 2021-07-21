@@ -1,4 +1,12 @@
 #!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+# Parse arguments for library compilation
+if [ -f $WM_PROJECT_DIR/wmake/scripts/AllwmakeParseArguments ]
+then  . $WM_PROJECT_DIR/wmake/scripts/AllwmakeParseArguments
+fi
+
 # Compile mesh library
 wmake libso meshLibrary
 
