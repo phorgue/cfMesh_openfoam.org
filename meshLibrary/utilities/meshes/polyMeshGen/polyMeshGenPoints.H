@@ -37,11 +37,7 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-# ifdef ExtendSpecific
-#include "foamTime.H"
-# else
 #include "Time.H"
-# endif
 #include "meshSubset.H"
 #include "pointFieldPMG.H"
 #include "DynList.H"
